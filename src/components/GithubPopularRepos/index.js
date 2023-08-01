@@ -51,7 +51,7 @@ class GithubPopularRepos extends Component {
       forksCount: eachRepository.forks_count,
       issuesCount: eachRepository.issues_count,
     }))
-    this.setRepositories({updatedData: false})
+    this.setRepositories(updatedData: false)
   }
 
   renderRepositoriesList = () => {
